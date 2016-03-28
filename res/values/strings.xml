@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="app_name">MyAndroidPiano</string>
+    <string name="settings">属性设置</string>
+    <string name="menu_settings">设置</string>
+	<string name="menu_exit">退出</string>
+	
+	
+	<string name="setting_key">按键设置</string>
+	<string name="setting_scroll">键盘滑动</string>
+	
+	<string name="setting_sound">声音设置</string>
+	<string name="setting_delay">余音设置</string>
+	<string name="setting_major">移调</string>
+
+</resources>

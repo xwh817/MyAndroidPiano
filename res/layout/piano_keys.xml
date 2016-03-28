@@ -1,0 +1,104 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout 
+        android:id="@+id/ll_keys_white"
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent">
+        
+        <xwh.music.piano.MyKey 
+            android:id="@+id/key_white_c"
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:background="@drawable/key_white_up"
+            />
+        <xwh.music.piano.MyKey 
+            android:id="@+id/key_white_d"
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:background="@drawable/key_white_up"
+            />
+        <xwh.music.piano.MyKey 
+            android:id="@+id/key_white_e"
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:background="@drawable/key_white_up"
+            />
+        <xwh.music.piano.MyKey 
+            android:id="@+id/key_white_f"
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:background="@drawable/key_white_up"
+            />
+        <xwh.music.piano.MyKey 
+            android:id="@+id/key_white_g"
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:background="@drawable/key_white_up"
+            />
+        <xwh.music.piano.MyKey 
+            android:id="@+id/key_white_a"
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:background="@drawable/key_white_up"
+            />
+        <xwh.music.piano.MyKey 
+            android:id="@+id/key_white_b"
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:background="@drawable/key_white_up"
+            />
+
+        
+        
+    </LinearLayout>
+
+    
+    <LinearLayout 
+        android:id="@+id/ll_keys_black"
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent">
+        
+        <xwh.music.piano.MyKey 
+            android:id="@+id/key_black_c"
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:background="@drawable/key_black_up"
+    		android:layout_marginLeft="24dp"
+            />
+        <xwh.music.piano.MyKey 
+            android:id="@+id/key_black_d"
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:background="@drawable/key_black_up"    		
+    		android:layout_marginLeft="8dp"
+            />
+        <xwh.music.piano.MyKey 
+            android:id="@+id/key_black_f"
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:background="@drawable/key_black_up"
+    		android:layout_marginLeft="48dp"
+            />
+        <xwh.music.piano.MyKey 
+            android:id="@+id/key_black_g"
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:background="@drawable/key_black_up"   		
+    		android:layout_marginLeft="8dp"
+            />
+        <xwh.music.piano.MyKey 
+            android:id="@+id/key_black_a"
+            android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:background="@drawable/key_black_up"   		
+    		android:layout_marginLeft="8dp"
+            />
+      
+    </LinearLayout>
+    
+    
+    
+</FrameLayout>

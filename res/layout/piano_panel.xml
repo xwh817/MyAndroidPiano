@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/piano_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <TextView 
+            android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:text="@string/app_name" />
+    </LinearLayout>
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:paddingLeft="12dp" >
+        <TextView 
+            android:id="@+id/txt_notes"
+            android:layout_width="match_parent"
+        	android:layout_height="wrap_content" />
+    </ScrollView>
+    
+    <xwh.music.piano.MyKeyboard
+        android:id="@+id/keyboard_1"
+        android:layout_width="match_parent"
+	    android:layout_height="wrap_content" />
+    <!-- <xwh.music.piano.MyKeyboard
+        android:id="@+id/keyboard_2"
+        android:layout_width="match_parent"
+	    android:layout_height="wrap_content" /> -->
+
+
+ </LinearLayout>

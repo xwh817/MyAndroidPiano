@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings" >
+
+    <PreferenceCategory
+        android:title="@string/setting_key" >
+
+        <CheckBoxPreference
+            android:key="setting_scroll"
+            android:title="键盘滑动"
+            android:summaryOff="当前不可滑动"
+            android:summaryOn="当前可滑动"
+            android:defaultValue="true" />
+        
+        <xwh.piano.view.Preference_Num
+            android:key="setting_num_key_white"
+	        android:title="屏幕白键数量："
+	        android:layout="@layout/preference_num" />
+        
+        
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/setting_sound" >
+  
+        <ListPreference
+            android:key="setting_delay"
+            android:entries="@array/delay_options"
+            android:entryValues="@array/delay_values"
+            android:title="设置余音"
+            android:defaultValue="1000"
+            android:summary="点击选择余音长度"
+            android:dialogTitle="选择余音长度" />
+        
+        <ListPreference
+            android:key="setting_major"
+            android:entries="@array/major_options"
+            android:entryValues="@array/major_values"
+            android:defaultValue="0"
+            android:title="调值"
+            android:summary="选择调值"
+            android:dialogTitle="选择调值" />
+        
+    </PreferenceCategory>
+    
+</PreferenceScreen>
